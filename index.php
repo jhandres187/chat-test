@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script>
         document.addEventListener("DOMContentLoaded", function(event) {
-            var conn = new WebSocket('ws://chat.lincecostore.com.co:34:22/');//conectara
+            var conn = new WebSocket('ws://chat.lincecostore.com.co:8080');//conectara
             conn.onopen = function(e) {
                 console.log("Conexion exitosa!");
             };
